@@ -23,11 +23,12 @@ margin-left: 10px;
 }
 .search__bar{
    display:flex; 
+   padding: 5px;
 }
 .search__bar button{
     background: #315EFB;
     color:white;
-    padding: 15px 10px;
+    padding: 15px 25px;
     border:none;
     height: 51px;
 }
@@ -37,6 +38,8 @@ margin-left: 10px;
     border: 2px;
     border-color: #315EFB;
     border-style: solid;
+    padding-left: 15px;
+    
 }
 .cards h3{
     color: #0067CC;
@@ -75,6 +78,7 @@ width: 324px;
 .cards__list{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
     
 }
 .cards {
